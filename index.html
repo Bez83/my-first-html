@@ -3,132 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B. Scott Resume</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <table>
-        <tr>
-          <td>
-            <img src="./images/GarfieldNoBackground.webp" alt="Garfield" />
-          </td>
-          <td>
-            <h1>Beren<br />Scott</h1>
-            <b
-              >Student Seeking<br />
-              Internship</b
-            >
-          </td>
-          <td>
-            4759 Sunnydale Lane, Plano, Texas,<br />United States, 75071<br />email@youremail.com<br />123-456-7890
-          </td>
-        </tr>
-      </table>
-    </div>
-    <p>
-      Dedicated accounting student with a 4.0 GPA to date. Completed 32 credit
-      hours, including classes in auditing, cost accounting, and managerial
-      accounting. Recent work experience in small business bookkeeping.
-      Well-versed in accounting software such as QuickBooks and ProSeries.
-      Naturally curious and eager to learn new finance systems and procedures.
-    </p>
-
-    <hr />
-    <h2>Professional Experience</h2>
-    <table>
-      <tr>
-        <td>May 2022 - September 2022</td>
-        <td>
-          <b>Bookkeeper </b>Small Accounting Corp
-          <ul>
-            <li>
-              Made journal entries corresponding with revenue and expenses
-            </li>
-            <li>
-              Tracked accounts payable and receivable to support billing for
-              general company expenses
-            </li>
-            <li>
-              Supported monthly close by closing out accounts, reconciling
-              entries, and running financial statements
-            </li>
-            <li>Prepared client and supplier invoices</li>
-            <li>
-              Worked with treasury to manage cash flows and bank account
-              balances
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <table>
-      <tr>
-        <td>May 2021 - September 2021</td>
-        <td>
-          <b>Administration Intern </b>Tax Prep LLC
-          <ul>
-            <li>
-              Answered phones, greeted clients, and prepared for client meetings
-            </li>
-            <li>
-              Replied to new client emails with information on the firm's
-              services and price schedules
-            </li>
-            <li>Received, scanned, and catalogued clients' tax records</li>
-            <li>
-              Supported tax preparation by entering client data and orgaizing
-              written communications
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Education</h2>
-    <table>
-      <tr>
-        <td>Present</td>
-        <td>
-          <b>Candidate: Bachelor of Science (BS) in Accounting </b>University of
-          Michigan, Ann Arbor
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Key Skills</h2>
-    <table>
-      <td>
-        <ul>
-          <li>Healthcare Support</li>
-          <li>Office Management</li>
-          <li>Clinical Operations</li>
-          <li>Calendar Management</li>
-          <li>Medical Billing and Coding</li>
-        </ul>
-        </td>
-        <td>
-          ⭐⭐⭐⭐⭐<br />⭐⭐⭐⭐⭐<br />⭐⭐⭐⭐⭐<br />⭐⭐⭐⭐⭐<br />⭐⭐⭐⭐⭐
-        </td>
-
-      <tr></tr>
-      <tr></tr>
-    </table>
-    <tr>
-      <td></td>
-    </tr>
-    <hr />
-    <h2>Contact Me</h2>
-
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
-
-      <textarea title="message" id=""></textarea>
-
-      <input type="submit" value="Submit" />
-    </form>
+    <section class="top">
+      <div class="navbar">
+        <img class="profile-picture" src="./images/me.svg" alt="Me" />
+        <div class="navlinks">
+          <a href="">About</a>
+          <a href="">Work</a>
+          <a href="">Notes</a>
+        </div>
+      </div>
+      <div class="title-container">
+        <img class="cloud-1" src="./images/cloud.png" alt="Cloud" />
+        <div>
+          <h1>I'm Beren.</h1>
+          <p class="text">A web designer.</p>
+        </div>
+        <div>
+          <img class="cloud-2" src="./images/cloud.png" alt="Cloud" />
+        </div>
+      </div>
+      <div class="landbox">
+        <img src="./images/land.svg" alt="land" />
+      </div>
+    </section>
+    <section class="bottom">
+      <div class="face-flex">
+        <img class="face" src="./images/me.svg" alt="face" />
+        <h2>Hi.</h2>
+        <p class="bottom-text">
+          I'm a web designer / developer based in Perth,<br />
+          Australia. I have a passion for web design and love to<br />
+          create for web and mobile devices.
+        </p>
+      </div>
+      <h1>What I can do.</h1>
+      <div class="design">
+        <img class="face padding" src="./images/me.svg" alt="face" />
+        <img class="pencil padding" src="./images/i-got-nothing.gif" alt="pencil" />
+        <div class="padding">
+          <h2>Design what you want.</h2>
+          <p>
+            I like to keep it simple. My goals are to focus on <br />
+            typography, content and conveying the message <br />
+            that you want to send.
+          </p>
+        </div>
+      </div>
+      <div class="design">
+        <div class="padding">
+          <h2>Develop what you need.</h2>
+          <p>
+            I'm a developer, so I know how to create your <br />
+            website to run across devices using the latest <br />
+            technologies available.
+          </p>
+        </div>
+        <img
+          class="computer padding"
+          src="./images/computer.webp"
+          alt="computer"
+        />
+        <img class="face padding" src="./images/me.svg" alt="face" />
+      </div>
+      <h1>I can help.</h1>
+      <h2>I'm currently available for freelance work</h2>
+      <p class="bottom-text">
+        If you have any project that you want to get started, think you need my
+        help <br />
+        with something or just fancy saying hey, then get in touch.
+      </p>
+      <div class="button">
+        <button
+          class="button-style"
+          type="button"
+          onclick="
+            alert(
+              'I broke my computer and am no longer employable. The Internet is evil.',
+            )
+          "
+        >
+          Message Me
+        </button>
+      </div>
+    </section>
   </body>
 </html>
-<body></body>
